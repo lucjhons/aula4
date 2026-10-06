@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: copiar repositorio
-                uses: actions/checkout@v7
+              uses: actions/checkout@v4
 
-                - name: mostrar 
-                   run: echo $(ls)
+            - name: mostrar 
+              run: echo $(ls)
