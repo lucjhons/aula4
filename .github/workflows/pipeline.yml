@@ -8,5 +8,5 @@ jobs:
             - name: copiar repositorio
               uses: actions/checkout@v4
 
-            - name: mostrar 
-              run: echo $(ls)
+            - name: abrir codigo
+              run: python calc.py
