@@ -3,10 +3,14 @@ on: [push]
 
 jobs: 
     test:
-        runs-on: ubuntu-latest
-        steps:
-            - name: copiar repositorio
-              uses: actions/checkout@v4
+      runs-on: ubuntu-latest
+      
+      steps:
+        - name: copiar repositorio
+          uses: actions/checkout@v4
 
-            - name: abrir codigo
-              run: python calc.py 
+        - name: listar arquivos e diretórios
+          run: ls -R
+
+        - name: abrir codigo
+          run: python calc.py
