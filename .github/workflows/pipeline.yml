@@ -9,4 +9,4 @@ jobs:
               uses: actions/checkout@v4
 
             - name: abrir codigo
-              run: python calc.py
+              run: python cal.py
