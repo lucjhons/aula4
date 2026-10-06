@@ -7,7 +7,7 @@ jobs:
       
       steps:
         - name: copiar repositorio
-          uses: actions/checkout@v4
+          uses: actions/checkout@v7
 
         - name: listar arquivos e diretórios
           run: ls -R
